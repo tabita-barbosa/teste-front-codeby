@@ -1,8 +1,107 @@
-@font-family{
+@font-face{
     font-family: 'Poppins', sans-serif;
     src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap')
 }
 
-.header{
-    background-image: url(assets/img2.jpg);
+body{
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
 }
+
+/* HEADER START */
+header{
+    background-image: url(assets/img1.jpg);
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.main-title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.brand-name{
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.logo{
+    width: 100px;
+    height: 80px;
+}
+
+button{
+    width: 220px;
+    height: 50px;
+    border: 0px solid;
+    color: #2d3436;
+    font-weight: bolder;
+}
+
+/* HEADER END */
+
+/* CATEGORIES START */
+
+.wrapper-titulos {
+    color:  #2d3436;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper{
+    color: #ffffff;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.cardOne{
+    background-image: url(assets/cardOne.jpg);
+    background-size: cover;
+    margin: 0.8rem;
+    height: 350px;
+    width: 350px;
+}
+
+.cardTwo{
+    background-image: url(assets/cardTwo.jpg);
+    background-size: cover;
+    margin: 0.8rem;
+    height: 350px;
+    width: 600px;
+}
+
+.cardCentral{
+    background-image: url(assets/cardCentral.jpg);
+    background-size: cover;
+    margin: 0.8rem 0rem;
+    height: 350px;
+    width: 975px;
+}
+
+.cardFour{
+    background-image: url(assets/cardFour.jpg);
+    background-size: cover;
+    margin: 0.8rem;
+    height: 350px;
+    width: 600px;
+}
+
+.cardFive{
+    background-image: url(assets/cardFive.jpg);
+    background-size: cover;
+    margin: 0.8rem;
+    height: 350px;
+    width: 350px;
+}
+
+/* CATEGORIES START */
