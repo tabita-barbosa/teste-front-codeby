@@ -8,6 +8,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+
 /* HEADER START */
 header{
     background-image: url(assets/img1.jpg);
@@ -52,19 +53,19 @@ button{
 
 .categories{
     margin: 0 auto;
-    padding: 4rem;
+    padding: 2rem 4rem 4rem 4rem;
 }
 
 .categories h1{
     font-size: 40px;
-    margin: 0rem;
+    margin: 1rem 0rem;
 }
 
 .wrapper-titulos {
     color:  #2d3436;
     display: flex;
     flex-direction: column;
-    margin: 0rem 0rem 0rem .8rem;
+    margin: 0rem 0rem 1rem .8rem;
 }
 
 .wrapper-cards{
@@ -131,12 +132,13 @@ button{
     display: flex;
     flex-direction: column;
 }
+
 .growth-plans h1, h4{
     margin: 0rem 0rem;
 }
 
 .growth-title{
-    margin: 1rem auto;
+    margin: 2rem auto 0rem 5rem;
     text-align: left;
     align-self: flex-start;
 }
@@ -146,7 +148,7 @@ button{
     justify-content: space-around;
     align-items: flex-end;
     flex-direction: row;
-    padding: 4rem;
+    padding: 0rem 4rem 4rem 4rem;
 }
 
 .column-plan{
@@ -164,50 +166,72 @@ button{
     background-color: #275aa6 ;
     color: #ffffff;
     padding: 1rem 1rem;
-    /* height: 50px; */
 }
 
-.plans-info{
+.parOne{
     background-color:#457dc8 ;
     padding: 1rem;
     font-size: 12px;
     color: #ffffff;
     margin: 0rem;
-    text-align: left;
     display: flex;
     align-items: flex-end;
-}
-
-.teste{
-    height: 260px;
-    align-self: flex-end;
-}
-
-
-.parOne{
     height: 60px;
 }
 
 .parTwo{
     height: 100px;
+    background-color:#457dc8 ;
+    padding: 1rem;
+    font-size: 12px;
+    color: #ffffff;
+    margin: 0rem;
+    display: flex;
+    align-items: flex-end;
 }
 
 .parThree{
+    background-color:#457dc8 ;
+    padding: 1rem;
+    font-size: 12px;
+    color: #ffffff;
+    margin: 0rem;
+    display: flex;
+    align-items: flex-end;
     height: 140px;
 }
 
 .parFour{
+    background-color:#457dc8 ;
+    padding: 1rem;
+    font-size: 12px;
+    color: #ffffff;
+    margin: 0rem;
+    display: flex;
+    align-items: flex-end;
     height: 180px;
 }
 
 .parFive{
+    background-color:#457dc8 ;
+    padding: 1rem;
+    font-size: 12px;
+    color: #ffffff;
+    margin: 0rem;
+    display: flex;
+    align-items: flex-end;
     height: 220px;
-    /* align-self: flex-end; */
 }
 
 .parSix{
-    /* height: 260px; */
-    /* align-self: flex-end; */
+    background-color:#457dc8 ;
+    padding: 1rem;
+    font-size: 12px;
+    color: #ffffff;
+    margin: 0rem;
+    display: flex;
+    align-items: flex-end;
+    height: 260px;
 }
 
 /* PLANS END  */
