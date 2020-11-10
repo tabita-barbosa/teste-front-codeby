@@ -50,18 +50,34 @@ button{
 
 /* CATEGORIES START */
 
+.categories{
+    margin: 0 auto;
+    padding: 4rem;
+}
+
+.categories h1{
+    font-size: 40px;
+    margin: 0rem;
+}
+
 .wrapper-titulos {
     color:  #2d3436;
     display: flex;
     flex-direction: column;
+    margin: 0rem 0rem 0rem .8rem;
 }
 
-.wrapper{
+.wrapper-cards{
     color: #ffffff;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
+    margin: 0 auto;
+}
+
+.wrapper-cards h1, h3 {
+    margin: 1rem auto auto 2rem;
 }
 
 .cardOne{
@@ -69,7 +85,7 @@ button{
     background-size: cover;
     margin: 0.8rem;
     height: 350px;
-    width: 350px;
+    flex-grow: 1;
 }
 
 .cardTwo{
@@ -77,15 +93,15 @@ button{
     background-size: cover;
     margin: 0.8rem;
     height: 350px;
-    width: 600px;
+    flex-grow: 2;
 }
 
 .cardCentral{
     background-image: url(assets/cardCentral.jpg);
     background-size: cover;
-    margin: 0.8rem 0rem;
+    margin: 1rem;
     height: 350px;
-    width: 975px;
+    flex-grow: 2;
 }
 
 .cardFour{
@@ -93,7 +109,7 @@ button{
     background-size: cover;
     margin: 0.8rem;
     height: 350px;
-    width: 600px;
+    flex-grow: 2;
 }
 
 .cardFive{
@@ -101,7 +117,97 @@ button{
     background-size: cover;
     margin: 0.8rem;
     height: 350px;
-    width: 350px;
+    width: 370px;
+    flex-grow: 1;
 }
 
-/* CATEGORIES START */
+/* CATEGORIES END */
+
+/* PLANS START */
+.growth-plans{
+    background-color: 	#f1f1ef;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.growth-plans h1, h4{
+    margin: 0rem 0rem;
+}
+
+.growth-title{
+    margin: 1rem auto;
+    text-align: left;
+    align-self: flex-start;
+}
+
+.plans{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: row;
+    padding: 4rem;
+}
+
+.column-plan{
+    width: 140px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.column-plan h4{
+    font-size: 14px;
+}
+
+.plans-title{
+    background-color: #275aa6 ;
+    color: #ffffff;
+    padding: 1rem 1rem;
+    /* height: 50px; */
+}
+
+.plans-info{
+    background-color:#457dc8 ;
+    padding: 1rem;
+    font-size: 12px;
+    color: #ffffff;
+    margin: 0rem;
+    text-align: left;
+    display: flex;
+    align-items: flex-end;
+}
+
+.teste{
+    height: 260px;
+    align-self: flex-end;
+}
+
+
+.parOne{
+    height: 60px;
+}
+
+.parTwo{
+    height: 100px;
+}
+
+.parThree{
+    height: 140px;
+}
+
+.parFour{
+    height: 180px;
+}
+
+.parFive{
+    height: 220px;
+    /* align-self: flex-end; */
+}
+
+.parSix{
+    /* height: 260px; */
+    /* align-self: flex-end; */
+}
+
+/* PLANS END  */
